@@ -1,14 +1,22 @@
+ex1:
+1-
 git init 
-
 $ git remote add origin https://github.com/abanoubmounir09/lab2-task1.git
-
 $ git status
-
 $ git push -u origin master
 
 ------
-ex2
+2-
 $ git branch dev
+$ git branch test
+$ git checkout dev
+$ git checkout master
+$ git merge dev
+$ git push 
 
-
-
+-------------
+3-delete branches
+local: git branch -d fix/authentication
+remote:git push origin --delete fix/authentication
+----
+4-invitation
