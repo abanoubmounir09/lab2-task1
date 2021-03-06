@@ -20,3 +20,15 @@ local: git branch -d fix/authentication
 remote:git push origin --delete fix/authentication
 ----
 4-invitation
+------------------------
+ex2:
+1-
+$ git tag v1.4.0 7dde36e
+$ git push origin v1.4.0
+$ git tag
+-->delete tag local
+$ git tag -d <tag_name>
+-->delete tag remotky
+$ git push --delete origin tagname
+
+
